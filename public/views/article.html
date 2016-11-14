@@ -1,0 +1,17 @@
+
+</div>
+<form>
+    <div class="form-group">
+        <label for="exampleInputPassword1">Titre 1</label>
+        <input class="form-control" id="exampleInputPassword1" placeholder="Titre 1" ng-model='vm.article.titre1'>
+    </div>
+    <div class="form-group">
+        <label for="exampleInputPassword1">Titre 2</label>
+        <input class="form-control" id="exampleInputPassword1" placeholder="Titre 2" ng-model='vm.article.titre2'>
+    </div>
+    <div class="form-group">
+        <label for="exampleTextarea">Article</label>
+        <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="Texte" ng-model='vm.article.texte'></textarea>
+    </div>
+    <button ng-click='vm.create()' class="btn btn-default">Enregistrer</button>
+</form>
