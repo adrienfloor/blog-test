@@ -1,11 +1,11 @@
 <div class="row">
     <div class="col-xs-12 col-md-10 col-md-offset-1 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
 
-        <div ng-show='vm.articles.length>0'>
-            <div ng-repeat='article in vm.articles'>
-                <h1>{{article.titre1}}</h1>
-                <h3>{{article.titre2}}</h3>
-                <p>{{article.texte}}</p>
+        <div class="container" ng-show='vm.articles.length>0'>
+            <div class="card card-block card-inverse" style="background-color: #333; border-color: #333; width: 700px; min-height: 300px;" ng-repeat='article in vm.articles'>
+                <h4 class="card-title" id="titre1">{{article.titre1}}</h4>
+                <h6 id="titre2">{{article.titre2}}</h6>
+                <p class="card-text" id="texte">{{article.texte}}</p>
             </div>
 
         </div>

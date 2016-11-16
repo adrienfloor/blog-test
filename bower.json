@@ -25,5 +25,8 @@
     "package.json",
     "_includes",
     "_layouts"
-  ]
+  ],
+  "devDependencies": {
+    "angular-ui-tinymce": "^0.0.17"
+  }
 }

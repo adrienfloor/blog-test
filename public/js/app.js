@@ -1,4 +1,4 @@
-angular.module('app', ['ngRoute'])
+angular.module('app', ['ngRoute','ngSanitize','ui.tinymce'])
         .service('todoService', todoService)
         .service('articleService', articleService)
         .controller('mainController', mainController)

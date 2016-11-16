@@ -14,3 +14,16 @@
 .navbar-brand:hover img {
     transform: rotate(360deg);
 }
+
+#titre1 {
+    color: white;
+    padding: 5px 5px 5px 5px;
+  }
+#titre2 {
+    color: white;
+    padding: 5px 5px 5px 5px;
+  }
+#texte {
+    color: white;
+    padding: 5px 5px 5px 5px;
+  }

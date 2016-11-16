@@ -1,5 +1,4 @@
 
-</div>
 <form>
     <div class="form-group">
         <label for="exampleInputPassword1">Titre 1</label>
@@ -11,7 +10,9 @@
     </div>
     <div class="form-group">
         <label for="exampleTextarea">Article</label>
-        <textarea class="form-control" id="exampleTextarea" rows="3" placeholder="Texte" ng-model='vm.article.texte'></textarea>
+        <textarea ui-tinymce="vm.tinymceOptions" class="form-control" id="exampleTextarea" rows="3" placeholder="Texte" ng-bind-html='vm.article.texte'></textarea>
     </div>
     <button ng-click='vm.create()' class="btn btn-default">Enregistrer</button>
 </form>
+
+<a href="#/"><button type="button" class="btn btn-default">Revenir au blog</button></a>
